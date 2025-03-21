@@ -2,13 +2,34 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
-.row{
-    flex-wrap: nowrap;
+    font-family: "Roboto";
 }
 .card{
     border-radius: 18px;
 }
 .card img {
     padding: 10px;
+}
+.navbar-brand{
+    max-width: 40px;
+}
+.faq{
+    width: 40%;
+}
+@keyframes alink {
+ 0%{
+     transform: scale(1.0);
+   
+ }
+50%{
+    transform: scale(1.2);
+   
+}
+100%{
+    transform: scale(1.4);
+    
+}
+}
+nav a:hover{
+    animation: alink 3s alternate;
 }

@@ -13,9 +13,7 @@
 .navbar-brand{
     max-width: 40px;
 }
-.faq{
-    width: 40%;
-}
+
 @keyframes alink {
  0%{
      transform: scale(1.0);
